@@ -1,0 +1,25 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Log files
+*.log
+
+# Environment files
+.env
+
+# Certbot and Nginx temporary or runtime files
+letsencrypt/
+certbot/
+nginx/*.conf.backup
+ssl-cert-snakeoil.key
+ssl-cert-snakeoil.pem
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
